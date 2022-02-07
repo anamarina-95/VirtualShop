@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: linear-gradient(
+    -225deg,
+    #69eacb 0%,
+    #eaccf8 48%,
+    #6654f1 100%
+  );
+  min-height: 100vh;
+  background-attachment: fixed;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+.logo {
+  padding-top: 10px;
+}
+
+.logo img {
+  width: 20%;
+  text-align: center;
+}
+
+.logo a {
+  width: 100%;
+  text-align: center;
+}
+
+.search-text {
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 14px;
+  outline: none;
+  width: 180px;
+  position: relative;
+  margin-right: 2px;
+  margin-left: -20px;
+  margin-top: 16px;
+}
+
+.search-btn {
+  border: 1px solid transparent;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: white;
+  outline: transparent;
+  position: absolute;
+  margin-top: 16px;
+}
+
+.search-btn img {
+  width: 23px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.menu-area li {
+  list-style: none;
+  display: inline-block;
+  margin-top: 16px;
+}
+
+.menu-area li img {
+  width: 20px;
+  border: 1px solid transparent;
+  margin-bottom: -4px;
+}
+
+.menu-area li a {
+  text-decoration: none;
+  color: rgb(3, 2, 2);
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  display: block;
+  padding: 0 12px;
+  font-size: 14px;
+  position: relative;
+  z-index: 1;
+  font-weight: bold;
+}
+
+.wrapper2 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  margin-bottom: 60px;
+}
+
+.div-data-container {
+  width: 132px;
+  height: 280px;
+  text-align: center;
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+  float: left;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 10px;
+}
+
+.div-data-container img {
+  width: 100px;
+  height: 100px;
+  object-fit: scale-down;
+}
+
+.div-data-container h6 {
+  padding: 10px;
+  height: 30%;
+  font-weight: bold;
+}
+
+.cards-subcontainer div {
+  padding: 10px;
+}
+
+.cards-subcontainer button {
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background-color: rgb(236, 232, 232);
+  outline: transparent;
+  padding: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(3, 2, 2);
+  letter-spacing: 0.2px;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+
+.no-results {
+  margin: auto;
+  height: 430px;
+  width: 300px;
+  text-align: center;
+  padding: 40px;
+}
+.no-results h4 {
+  margin-top: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  .wrapper {
+    width: 600px;
+    height: 100px;
+    margin: 0 auto;
+  }
+
+  .logo {
+    text-align: left;
+  }
+
+  .logo img {
+    width: 15%;
+    float: left;
+  }
+
+  .search-box {
+    float: left;
+    margin-left: 20px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .search-text {
+    width: 200px;
+    margin-right: 2px;
+  }
+
+  .menu-area {
+    margin-top: 20px;
+  }
+
+  .menu-area li {
+    text-align: right;
+  }
+
+  .menu-area li img {
+    width: 24px;
+  }
+
+  .menu-area li a {
+    padding: 0 4px;
+  }
+
+  .div-data-container {
+    width: 160px;
+  }
+
+  .wrapper2 {
+    margin-top: 100px;
+  }
+
+  .div-data-container {
+    margin: 20px 10px;
+  }
+
+  .no-results {
+    height: 700px;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .wrapper {
+    width: 1000px;
+  }
+  .logo {
+    text-align: left;
+  }
+
+  .logo img {
+    width: 12%;
+    float: left;
+  }
+
+  .search-box {
+    float: left;
+    margin-left: 60px;
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .search-text {
+    padding: 8px;
+    width: 350px;
+  }
+
+  .search-btn img {
+    width: 28px;
+  }
+  .menu-area {
+    margin-top: 40px;
+  }
+
+  .menu-area li {
+    text-align: right;
+  }
+
+  .menu-area li img {
+    width: 30px;
+  }
+
+  .menu-area li a {
+    letter-spacing: 0.4px;
+    padding: 0 12px;
+    font-size: 18px;
+  }
+  .no-results {
+    height: 300px;
+  }
+}

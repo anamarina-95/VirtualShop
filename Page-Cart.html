@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Cart Page</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style4.css'>
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav>
+            <div class="logo"><a href="index.html"><img src="Icons/apple.png"></a></div>
+
+        </nav>
+    </div>
+
+    <div class="shoppings">
+        <div>
+            <h6>Shopping Cart</h6>
+            <div class="totalview">
+                <span>TVA: 0%</span>
+                <span>Shipping Cost: 0 RON</span>
+                <br>
+                <span id="total">Total:</span>
+            </div>
+        </div>
+    </div>
+    <div class="arrangetable">
+        <table id="table">
+            <thead>
+                <th>Image</th>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Qtyty</th>
+                <th>SubTotal</th>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-remote-config.js"></script>
+    <script src='app3.js'></script>
+
+
+</body>
+
+
+</html>

@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: linear-gradient(
+    -225deg,
+    #69eacb 0%,
+    #eaccf8 48%,
+    #6654f1 100%
+  );
+  background-attachment: fixed;
+}
+
+.wrapper {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.logo {
+  padding-top: 10px;
+}
+
+.logo img {
+  width: 20%;
+  text-align: center;
+}
+
+.logo a {
+  width: 100%;
+  text-align: center;
+}
+
+.shoppings {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.shoppings h6 {
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+  float: left;
+  margin-top: 10%;
+  margin-right: 40px;
+  font-family: cursive;
+  letter-spacing: 0.8px;
+}
+
+.totalview {
+  text-align: left;
+  font-size: 16px;
+  font-weight: bold;
+  float: right;
+  margin-top: 40%;
+  margin-bottom: 20px;
+}
+
+.totalview span {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+#table {
+  background-color: white;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  text-align: center;
+  table-layout: fixed;
+  border-spacing: 8px;
+  border-collapse: separate;
+  width: 100%;
+}
+
+#table th {
+  padding: 8px;
+  font-weight: bold;
+  padding-left: 2px;
+}
+
+#table button {
+  border: 1px solid transparent;
+  background-color: transparent;
+  outline: transparent;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(3, 2, 2);
+  letter-spacing: 0.2px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+}
+
+tbody img {
+  width: 50px;
+  height: 50px;
+  object-fit: scale-down;
+}
+
+tbody span {
+  display: flex;
+  flex-direction: column;
+}
+
+#table .removebutton {
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background-color: rgb(236, 232, 232);
+  outline: transparent;
+  padding: 2px;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(3, 2, 2);
+  font-family: sans-serif;
+  cursor: pointer;
+}
+
+.arrangetable {
+  margin-right: 4px;
+  margin-left: 4px;
+}
+
+@media only screen and (min-width: 768px) {
+  .wrapper {
+    width: 600px;
+    height: 100px;
+    margin: 0 auto;
+  }
+
+  .logo {
+    text-align: left;
+  }
+
+  .logo img {
+    width: 15%;
+    float: left;
+  }
+  .shoppings h6 {
+    font-size: 25px;
+    margin-top: 20%;
+    margin-right: 50px;
+  }
+  .totalview {
+    margin-right: -20%;
+    font-size: 18px;
+  }
+
+  .arrangetable {
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .wrapper {
+    width: 1000px;
+    margin-bottom: 70px;
+  }
+  .logo {
+    text-align: left;
+  }
+
+  .logo img {
+    width: 12%;
+    float: left;
+  }
+  .shoppings h6 {
+    font-size: 25px;
+    margin-top: 10%;
+  }
+  .totalview {
+    margin-right: -60%;
+    font-size: 18px;
+  }
+  .arrangetable {
+    margin-right: 130px;
+    margin-left: 130px;
+  }
+}

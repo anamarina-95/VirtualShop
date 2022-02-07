@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Admin Page</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style2.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style5.css'>
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav>
+            <div class="logo"><a href="index.html"><img src="Icons/apple.png"></a></div>
+        </nav>
+    </div>
+
+    <div class="arrangediv">
+        <h2>Manage Your Products</h2>
+        <button id="addproduct">Add New Product</button>
+    </div>
+
+    <div class="showallproducts">
+        <table id="table">
+            <thead>
+                <th>Image</th>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Stock</th>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-remote-config.js"></script>
+    <script src='app4.js'></script>
+</body>
+
+
+</html>

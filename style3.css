@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: linear-gradient(
+    -225deg,
+    #69eacb 0%,
+    #eaccf8 48%,
+    #6654f1 100%
+  );
+  background-attachment: fixed;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+.logo {
+  padding-top: 10px;
+}
+
+.logo img {
+  width: 20%;
+  text-align: center;
+}
+
+.logo a {
+  width: 100%;
+  text-align: center;
+}
+
+.menu-area li {
+  list-style: none;
+  display: inline-block;
+  margin-top: 16px;
+}
+
+.menu-area li img {
+  width: 20px;
+  border: 1px solid transparent;
+  margin-bottom: -4px;
+}
+
+.menu-area li a {
+  text-decoration: none;
+  color: rgb(3, 2, 2);
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  display: block;
+  padding: 0 12px;
+  font-size: 14px;
+  position: relative;
+  z-index: 1;
+  font-weight: bold;
+}
+
+.container {
+  width: 100%;
+  /* min-height: 750px; */
+  margin-bottom: 40px;
+}
+
+.wrapper3 {
+  background-color: white;
+  background-size: 100%;
+  width: 80%;
+  height: max-content;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+}
+
+.wrapper3 img {
+  width: 300px;
+  object-fit: scale-down;
+  float: left;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.div-detailsdisplay {
+  justify-content: justify;
+  float: right;
+}
+
+.div-detailsdisplay h6 {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 20px;
+}
+
+.div-detailsdisplay div {
+  font-size: 16px;
+  margin: 20px;
+  letter-spacing: 0.2px;
+}
+
+.div-detailsdisplay button {
+  font-size: 14px;
+  margin: 20px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background-color: rgb(236, 232, 232);
+  outline: transparent;
+  padding: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(3, 2, 2);
+  letter-spacing: 0.2px;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+
+.btncartbanner {
+  position: absolute;
+  padding: 20px;
+  background-color: rgb(216, 224, 241);
+  color: black;
+  justify-content: center;
+  border-radius: 4px;
+  margin-top: -80px;
+  z-index: 10000;
+  right: 20%;
+  left: 20%;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: black;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: wheat;
+}
+
+@media only screen and (min-width: 768px) {
+  .wrapper {
+    width: 600px;
+    height: 100px;
+    margin: 0 auto;
+  }
+
+  .logo {
+    text-align: left;
+  }
+
+  .logo img {
+    width: 15%;
+    float: left;
+  }
+  .menu-area {
+    margin-top: 20px;
+  }
+
+  .menu-area li {
+    margin-right: -300px;
+  }
+
+  .menu-area li img {
+    width: 24px;
+  }
+
+  .menu-area li a {
+    padding: 0 4px;
+  }
+
+  .container {
+    width: 100%;
+    /* min-height: 810px; */
+  }
+
+  .wrapper3 {
+    margin-top: 70px;
+  }
+  .wrapper3 img {
+    margin: 20px;
+  }
+  .btncartbanner {
+    position: absolute;
+    margin-top: -60px;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .wrapper {
+    width: 1000px;
+    margin-bottom: 70px;
+  }
+  .logo {
+    text-align: left;
+  }
+
+  .logo img {
+    width: 12%;
+    float: left;
+  }
+  .menu-area {
+    margin-top: 40px;
+  }
+
+  .menu-area li {
+    margin-right: -550px;
+  }
+
+  .menu-area li img {
+    width: 30px;
+  }
+
+  .menu-area li a {
+    letter-spacing: 0.4px;
+    padding: 0 12px;
+    font-size: 18px;
+  }
+  .wrapper3 {
+    margin-top: 100px;
+  }
+
+  .wrapper3 img {
+    margin: 20px;
+  }
+
+  .div-detailsdisplay {
+    width: 700px;
+    float: right;
+  }
+  .btncartbanner {
+    position: absolute;
+    margin-top: -70px;
+    text-align: center;
+  }
+}
